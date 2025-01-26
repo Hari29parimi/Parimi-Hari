@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Your Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<!-- Dark Mode Toggle -->
+<button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+<!-- Header Section -->
+<header>
+<h1>Welcome to My Portfolio</h1>
+<p>Parimi Hari - Video Editor</p>
+</header>
+<!-- About Section -->
+<section id="about">
+<h2>About Me</h2>
+<p>I'm a video editor and photographer with a passion for creating raw videos into unforgetable memory. Im
+specialized in promo, regular videos, canded photoshoots using modern tools and softwere like premior pro, after effects, lightroom, etc to make the videos and photos look more attractive and professional
+</p>
+</section>
+<!-- Projects Section -->
+<section id="projects">
+<h2>Hear are few of my works.</h2>
+<div class="project">
+<h3>In the below drive links you can fine few of my works</h3>
+<p>A personal portfolio website to showcase my skills and projects.</p>
+</div>
+<div class="project">
+<h3>Project 2: E-commerce Site</h3>
+<p>A fully functional e-commerce site built with React and Node.js.</p>
+</div>
+</section>
+<!-- Contact Form Section -->
+<section id="contact">
+<h2>Contact Me</h2>
+<form id="contactForm">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Your Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
